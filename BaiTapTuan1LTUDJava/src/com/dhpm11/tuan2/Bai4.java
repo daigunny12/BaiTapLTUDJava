@@ -13,12 +13,17 @@ public class Bai4 extends JFrame {
 	public Bai4(String title) {
 		super(title);
 		setSize(400, 300);
-		setVisible(true);
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		addControl();
+		setVisible(true);
+	}
+
+	public void addControl() {
 		Font font = new Font("Arial", Font.BOLD / Font.ITALIC, 25);
 		JPanel pnBorder = new JPanel();
 		pnBorder.setLayout(new BorderLayout());
+		/// pnBorder.setBackground(Color.RED);
 
 		JPanel pnNorth = new JPanel();
 		pnNorth.setBackground(Color.RED);

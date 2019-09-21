@@ -13,8 +13,12 @@ public class Bai2 extends JFrame {
 		super(title);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setSize(400, 300);
-		setVisible(true);
 		setLocationRelativeTo(null);
+		addControl();
+		setVisible(true);
+	}
+
+	public void addControl() {
 		JPanel pnFlow = new JPanel();
 		pnFlow.setLayout(new FlowLayout());
 		pnFlow.setBackground(Color.pink);
@@ -34,7 +38,6 @@ public class Bai2 extends JFrame {
 
 	public static void main(String[] args) {
 		Bai2 b2 = new Bai2("Demo FlowLayout");
-
 	}
 
 }

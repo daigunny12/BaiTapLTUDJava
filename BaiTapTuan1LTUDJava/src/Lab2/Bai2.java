@@ -14,15 +14,7 @@ public class Bai2 {
 		System.out.println("Nhập c: ");
 		c = sc.nextDouble();
 		if (a == 0) {
-			if (b == 0) {
-				if (c == 0) {
-					System.out.println("Phương trình vô số nghiệm");
-				} else {
-					System.out.println("Phương trình vô nghiệm");
-				}
-			} else {
-				System.out.println("Nghiệm của phương trình là: " + -c / b);
-			}
+			System.out.println("Nghiệm của phương trình là: " + -c / b);
 		} else {
 			delta = Math.pow(b, 2) - 4 * a * c;
 			if (delta < 0) {

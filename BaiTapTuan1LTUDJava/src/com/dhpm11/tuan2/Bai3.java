@@ -13,10 +13,14 @@ public class Bai3 extends JFrame {
 	public Bai3(String title) {
 		super(title);
 		setSize(400, 300);
-		setVisible(true);
 		setLocationRelativeTo(null);
+		addControl();
+		setVisible(true);
+	}
+
+	public void addControl() {
 		JPanel pnBox = new JPanel();
-		//pnBox.setLayout(new BoxLayout(pnBox, BoxLayout.X_AXIS));
+		// pnBox.setLayout(new BoxLayout(pnBox, BoxLayout.X_AXIS));
 		pnBox.setLayout(new BoxLayout(pnBox, BoxLayout.Y_AXIS));
 		Font font = new Font("Arial", Font.BOLD / Font.ITALIC, 25);
 		JButton btn1 = new JButton("BoxLayout");
