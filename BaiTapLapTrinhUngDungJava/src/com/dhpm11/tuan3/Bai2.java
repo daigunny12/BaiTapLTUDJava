@@ -1,5 +1,5 @@
 
-package com.dhpm11.tuan4;
+package com.dhpm11.tuan3;
 
 import java.awt.Dimension;
 import java.awt.Graphics;
